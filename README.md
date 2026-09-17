@@ -92,11 +92,13 @@ __Day 2:__
 - Anova
 - t-test
 - Linear Regression
+- QUIZ
 - Practice 
 
 *Session 5 :: PCA & Hierarchical Clustering*
 - PCA
 - Hierarchical Clustering
+- QUIZ
 - Practice 
 
 *Session 6 :: Feedback and Q & A* 
