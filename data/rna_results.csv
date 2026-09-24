@@ -1,0 +1,11 @@
+gene,condition,log2FC,padj,baseMean 
+Tp53,Drug,2.31,0.001,1250 
+Myc,Drug,1.85,0.004,980 
+Cdkn1a,Drug,3.12,0.0002,750 
+Bcl2,Drug,-1.42,0.021,620 
+Gapdh,Control,0.12,0.85,3200 
+Actb,Control,-0.08,0.91,2800 
+Il6,Drug,2.75,0.008,450 
+Sox2,Control,0.43,0.42,310 
+Nanog,Drug,-2.10,0.013,275 
+Oct4,Drug,1.67,0.032,190
