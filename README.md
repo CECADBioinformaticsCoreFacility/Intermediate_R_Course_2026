@@ -66,22 +66,22 @@ We strongly recommend that you try to familiarize yourself with R and RStudio by
 
 __Day 1:__
 
-*Session 1 :: Even More Basic Concepts in R* 
+[*Session 1 :: Even More Basic Concepts in R*](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/slides/Session_1.html)
 - R Function
 - R Packages
 - Package repositories, package ecosystems
 - QUIZ
-- Practice 
+- Practice
 
-*Session 2 :: Data Reshaping*
+[*Session 2 :: Data Reshaping*](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/slides/Session_2.html)
 - dplyr
 - QUIZ
-- Practice
+- [Practice](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/practice/Session_2_practice.html)
   
-*Session 3 :: Data Visualization* 
+[*Session 3 :: Data Visualization*](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/slides/Session_3.html)
 - ggplot2
 - QUIZ
-- Practice 
+- [Practice](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/practice/Session_3_practice.html) 
  
 
 __Day 2:__

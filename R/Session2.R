@@ -61,7 +61,7 @@ long <- iris_filtered |>
     values_to = "Value"
   )
 
-long 
+long
 
 wide <- long |>
   pivot_wider(
@@ -96,8 +96,8 @@ res |>
 # == base r ==
 
 # 1. Filter rows, select columns, and create the new column
-sub_iris <- subset(iris, 
-  Sepal.Length > 5, 
+sub_iris <- subset(iris,
+  Sepal.Length > 5,
   select = c(Sepal.Length, Petal.Length, Species)
   )
 sub_iris$SePa.Length <- sub_iris$Sepal.Length + sub_iris$Petal.Length
@@ -106,8 +106,8 @@ sub_iris$SePa.Length <- sub_iris$Sepal.Length + sub_iris$Petal.Length
 sub_iris <- sub_iris[order(-sub_iris$SePa.Length), ]
 
 # 3. Group by Species and calculate mean and count (n)
-result <- aggregate(SePa.Length ~ Species, 
-  data = sub_iris, 
+result <- aggregate(SePa.Length ~ Species,
+  data = sub_iris,
   FUN = function(x) {
   c(mean = mean(x), n = length(x))
 })
@@ -120,7 +120,7 @@ print(result)
 
 # == dplyr ==
 
-iris |> 
+iris |>
    filter(Sepal.Length > 5) |>                          # filter rows
    select(Sepal.Length, Petal.Length, Species) |>       # select columns
    mutate(SePa.Length=Sepal.Length+Petal.Length) |>     # add new column
@@ -133,16 +133,16 @@ iris |>
 dplyr::select()
 dplyr::slice()
 dplyr::filter()
-dplyr::mutate() & dplyr::transmute() 
+dplyr::mutate() & dplyr::transmute()
 dplyr::arrange ()
 
-aggregate(cbind(Petal.Length, Sepal.Length) ~ Species + Petal.Width, 
-data = iris, 
+aggregate(cbind(Petal.Length, Sepal.Length) ~ Species + Petal.Width,
+data = iris,
 FUN = function(x) { c(mean = mean(x), n = length(x))
 })
 
 iris %>%
-  group_by(Species,Petal.Width) %>% 
+  group_by(Species,Petal.Width) %>%
   summarise(mean = mean(Petal.Length), mean2 = mean(Sepal.Length) , n = n()) %>%
   ungroup()
 
@@ -165,7 +165,7 @@ dplyr::bind_rows()
 
 
 
-
+geom_errorbar(aes(ymin = len, ymax = len + sd), width = 0.2) +
 
 
 dplyr::left_join()
