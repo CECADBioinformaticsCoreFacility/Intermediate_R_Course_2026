@@ -86,7 +86,7 @@ __Day 1:__
 
 __Day 2:__
 
-[*Session 4 :: Inferential Statistics*](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/slides/Session_4.html))
+[*Session 4 :: Inferential Statistics*](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/slides/Session_4.html)
 - Chi-square Test
 - Fisher’s Exact Test
 - Anova
@@ -95,11 +95,11 @@ __Day 2:__
 - QUIZ
 - Practice 
 
-[*Session 5 :: PCA & Hierarchical Clustering*](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/slides/Session_5.html))
+[*Session 5 :: PCA & Hierarchical Clustering*](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/slides/Session_5.html)
 - PCA
 - Hierarchical Clustering
 - QUIZ
-- Practice 
+- [Practice](https://cecadbioinformaticscorefacility.github.io/Intermediate_R_Course_2026/practice/Session_5_practice.html) 
 
 *Session 6 :: Feedback and Q & A* 
 
